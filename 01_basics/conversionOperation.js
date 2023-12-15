@@ -1,13 +1,13 @@
 let score = "Hansraj"
 
-console.log(typeof score);
+// console.log(typeof score);
 
-console.log(typeof (score));  // both are same.
+// console.log(typeof (score));  // both are same.
 
 let valueInNumber = Number(score);
 
-console.log(typeof valueInNumber);
-console.log( valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log( valueInNumber);
 
 
 /*
@@ -20,7 +20,7 @@ undefined => NaN
 let isLoggedIn = "Hansraj"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log (booleanIsLoggedIn)
+// console.log (booleanIsLoggedIn)
 
 /*
 1 => true
@@ -33,5 +33,15 @@ let someNumber = 33
 
 let stringNumber = String(someNumber)
 
-console.log(typeof stringNumber);
-console.log(stringNumber);
+// console.log(typeof stringNumber);
+// console.log(stringNumber);
+
+
+// ****************************************** Operations ******************************************
+
+let value = 3
+let negValue = -value
+
+// console.log (negValue)
+
+// console.log(2**3); // 2 to the power 3
