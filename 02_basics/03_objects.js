@@ -23,7 +23,18 @@ console.log(JsUser["full name"]);      // No chance of accessing full name with 
 console.log( JsUser[mySym]);  
 
 JsUser.email = "hansraj@chatgpt.com";
-Object.freeze(JsUser.email);
+// Object.freeze(JsUser);
 JsUser.email ="hansraj@adobe.com";
 console.log(JsUser);
+
+JsUser.greeting = function () {
+    console.log("Hello JsUser");
+}
+
+console.log(JsUser.greeting());
  
+JsUser.greetingTwo = function () {
+    console.log(`Hello JsUser, ${this.name}`);
+}
+console.log(JsUser.greetingTwo());
+
