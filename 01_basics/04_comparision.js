@@ -10,5 +10,5 @@ console.log( undefined == 0);
 console.log( undefined >= 0);
 
 // === this is a type of equality check where it checks the datatypes too.
-
+// == is an equality check too.
 console.log( "2" === 2);
